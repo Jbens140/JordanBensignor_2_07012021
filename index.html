@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Reservia - Openclassroom</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/position.css">
+</head>
+
+<body>
+
+
+    <!--HEADER-->
+
+    <header>
+        <img class="HeaderImage" src="./images/logo/Reservia@3x.png" alt="Reservia">
+        <nav class="HeaderNav">
+            <a class="HeaderNavTab" href="">Hébergements</a>
+            <a class="HeaderNavTab" href="">Activités</a>
+            <a class="SubmitButton" href=""><strong>S'inscrire</strong></a>
+        </nav>
+    </header>
+    <!--HEADER-->
+
+    <!--MAIN-->
+
+    <main class="main">
+        <!--SEARCH NAVIGATION-->
+        <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+
+        <nav class="LocationSearchNav">
+            <i class="fas fa-map-marker-alt"></i>
+            <!--Icon Location-->
+            <input type="text" id="LocationSearchBar" placeholder="Marseille, France">
+            <button class="LocationSearchButton">Rechercher</button>
+            <!--Probleme sur l'affichage quand on click-->
+        </nav>
+
+        <div class="FilterNav">
+            <h2 class="TitleFilter ">Filtres</h2>
+            <div class="FilterButton">
+                <div class="FilterIcon">
+                    <i class="fas fa-money-bill-wave FilterIcon"></i>
+                </div>
+                <span class="TitleFilter">Économique</span>
+            </div>
+            <div class="FilterButton">
+                <div class="FilterIcon">
+                    <i class="fas fa-child FilterIcon"></i>
+                </div>
+                <span class="TitleFilter">Familial</span>
+            </div>
+            <div class="FilterButton">
+                <div class="FilterIcon">
+                    <i class="fas fa-heart FilterIcon"></i>
+                </div>
+                <span class="TitleFilter">Romantique</span>
+            </div>
+            <div class="FilterButton FilterButtonDog">
+                <div class="FilterIcon">
+                    <i class="fas fa-dog FilterIcon"></i>
+                </div>
+                <span class="TitleFilter">Animaux autorisés</span>
+            </div>
+        </div>
+        <div class="SearchResult">
+            <div class="SearchResultInfosIcon"><i class="fas fa-info"></i></div>
+            <p class="SearchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        <!--SEARCH NAVIGATION-->
+
+        <!-- HOSTING -->
+        <section class="HostingAndPopular">
+            <div class="HostingBlock">
+                <h2 class="HostingMainTitle">Hébergement à Marseille</h2>
+                <div class="HostingContainer">
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Auberge la Cannebière
+                                    </h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>25€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star " data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Hôtel du port</h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>52€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Hôtel les mouettes</h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>76€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star " data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Hôtel de la mer</h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>46€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star " data-active="true"></i>
+                                        <i class="fas fa-star " data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Auberge le Panier</h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>23€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star" data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingMainPics">
+                        <a class="HostingMainPicsFigCaptionTitle" href="#">
+                            <figure class="HostingMainPicsFigure">
+                                <img class="HostingMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingMainPicsFigCaption">
+                                    <h3 class="HostingMainPicsFigCaptionTitle">Hôtel chez Amina</h3>
+                                    <div class="HostingMainPicsFigCaptionSubTitle">Nuit à partir de <strong>96€</strong>
+                                    </div>
+                                    <div class="HostingMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingMainPicsStarsIcon" data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <a class="HostingMainViewmore" href="#">Afficher plus</a>
+                </div>
+
+            </div>
+            <div class="HostingBlockPopular">
+                <h2 class="HostingPopularTitle">Les plus populaires</h2>
+                <i class="fas fa-chart-line"></i>
+                <div class="HostingPopularContainer">
+                    <div class="HostingPopularMainPics">
+                        <a class="HostingPopularMainPicsFigcaptionTitle" href="#">
+                            <figure class="HostingPopularMainPicsFigure">
+                                <img class="HostingPopularMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingPopularMainPicsFigCaption">
+                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Hôtel le soleil du
+                                            matin</h3>
+                                    <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
+                                        <strong>128€</strong>
+                                    </div>
+                                    <div class="HostingPopularMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="HostingPopularMainPics">
+                        <a class="HostingPopularMainPicsFigcaptionTitle" href="#">
+                            <figure class="HostingPopularMainPicsFigure">
+                                <img class="HostingPopularMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingPopularMainPicsFigCaption">
+                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Au coeur de l'eau<br> Chambre d'hôtes</h3>
+                                    <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
+                                        <strong>71€</strong>
+                                    </div>
+                                    <div class="HostingPopularMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star " data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="HostingPopularMainPics">
+                        <a class="HostingPopularMainPicsFigcaptionTitle" href="#">
+                            <figure class="HostingPopularMainPicsFigure">
+                                <img class="HostingPopularMainPicsFigureImg"
+                                    src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                    alt="Chambre idéale pour passer un séjour en famille">
+
+                                <figcaption class="HostingPopularMainPicsFigCaption">
+                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Hôtel Tout bleu et
+                                            Blanc</h3>
+                                    <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
+                                        <strong>68€</strong>
+                                    </div>
+                                    <div class="HostingPopularMainPicsStarsIconGroup">
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star HostingPopularMainPicsStarsIcon" data-active="true"></i>
+                                        <i class="fas fa-star " data-active="false"></i>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h2 class="HostingMainTitle" style="margin-left: 2%;">Activités à Marseille</h2>
+            <div class="ActivitiesGrid">
+            <figure class="ActivitiesMainPicsFigure grid-item1">
+                <img class="ActivitiesMainPicsFigureImg1"
+                    src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Vieux Port</h3>
+                </figcaption>
+            </figure>
+            <figure class="ActivitiesMainPicsFigure grid-item2">
+                <img class="ActivitiesMainPicsFigureImg2"
+                    src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Fort de Pomègues</h3>
+                </figcaption>
+            </figure>
+            <figure class="ActivitiesMainPicsFigure grid-item3">
+                <img class="ActivitiesMainPicsFigureImg3" src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du Frioul">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Iles du Frioul</h3>
+                </figcaption>
+            </figure>
+            <figure class="ActivitiesMainPicsFigure grid-item4">
+                <img class="ActivitiesMainPicsFigureImg4"
+                    src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Parc National des Calanques</h3>
+                </figcaption>
+            </figure>
+            <figure class="ActivitiesMainPicsFigure grid-item5">
+                <img class="ActivitiesMainPicsFigureImg5"
+                    src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Notre-Dame-de-la-Garde</h3>
+                </figcaption>
+            </figure>
+            <figure class="ActivitiesMainPicsFigure grid-item6">
+                <img class="ActivitiesMainPicsFigureImg6"
+                    src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+
+                <figcaption>
+                    <h3 class="ActivitiesMainPicsFigcaptionTitle">Parc Longchamp</h3>
+                </figcaption>
+
+
+            </figure>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!--MAIN-->
+
+
+
+
+
+
+
+</body>
+
+</html>
