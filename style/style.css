@@ -13,38 +13,53 @@
     src: url('./font_Raleway/Raleway-ExtraBold.ttf');
 }
 
-
+header
+{
+    display: grid;
+    grid-template-columns: auto 150px 150px 100px;
+    padding: 0px 50px 35px 50px;
+    grid-template-rows: 100px;
+    
+}
 .HeaderImage
 {
     display: block;
-    margin-left: 3.1%;
-    width: 7%;
-    margin-top: 2%;
+    width: 100px;
+    padding-top: 50px;
+    
+   
     
 }
 .HeaderNavTab
 {
-    margin-top: -4%;
+    
     font-family: 'Raleway';
     color: #000000fd;
     text-decoration-line: none;
-    padding: 40px;
+    text-align: center;
+    padding-top: 50px;
 
     
     
 }
+.HeaderNavTabHosting
+{
+    font-family: 'Raleway';
+    color: #000000fd;
+    text-decoration-line: none;
+    text-align: center;
+    padding-top: 50px;
+    color: #0065FC;
+    border-top:2px solid #0065FC;
+    font-weight: bold;
+}
 .SubmitButton
 {
-    margin-top: -4%;
-    margin-right: 5%;
     font-family: 'Raleway-ExtraBold';
-    font-weight: 200;
     color: #0065FC;
     text-decoration-line: none;
-    display: grid;
-    grid-row-gap: 50px;
-    padding: 40px;
-    
+    text-align: center;
+    padding-top: 50px;
 }
 .HeaderNavTab:hover
 {
@@ -55,18 +70,17 @@
 h1
 {
     font-family: 'Raleway';
-    padding: 10px 50px 0px 30px;
+    padding: 0px 0px 0px 50px;
     font-weight: bold;
     font-size: 140%;
-    margin-left: 1.5%;
+
 }
 p
 {
-    padding: 0px 50px 10px 30px;
+    padding: 5px 0px 0px 50px;
     font-family: 'Raleway';
     color: #020202;
-    margin-top: 4px;
-    margin-left: 1.5%; 
+ 
 }
 .LocationSearchNav
 {
@@ -74,8 +88,8 @@ p
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    padding: 6px 27px;
-    margin-left: 1.5%;
+    padding: 20px 0px 0px 50px;
+
 }
 .LocationSearchButton
 {
@@ -88,6 +102,7 @@ p
     height: 50px;
     width: 120px;
     font-size: 110%;
+    outline: none;
 }
 .LocationSearchButton:hover 
 {
@@ -103,7 +118,8 @@ p
     font-size: 110%;
     font-weight: bold;
     text-indent: 15px;
-    border-style: solid none solid none;   
+    border-style: solid none solid none;
+    outline: none;   
 }
 .fas.fa-map-marker-alt
 {
@@ -118,10 +134,13 @@ p
 }
 .FilterNav
 {
-    display: flex;
-    flex-direction: row;
-    padding: 2%;
-    margin-left: 0.5%;
+    display: grid;
+    grid-template-columns: 70px 190px 150px 190px 235px;
+    grid-column-gap: 25px ;
+    padding: 35px;
+    align-items: center;
+
+    
 }
     
 .FilterButton
@@ -133,7 +152,6 @@ p
     border-radius: 30px 30px 30px 30px;
     border-style: solid solid solid none;
     border-color: #05050518;
-    margin-right: 1.5%;
     
    
 }
@@ -149,31 +167,62 @@ p
     background-color:  #c6dbfab2;
     justify-content: center;
     align-items: center;
-    font-size: 98%;
-    border-radius: 50px 50px 50px 50px;
+    font-size: 110%;
+    border-radius: 30px;
     color: #0065FC;
-    margin-left: -1%;
-    border-style: none;
-    margin-right: 0%;      
+    border-style: none;     
  }
  .TitleFilter
 {
-    text-indent: 15px;
     font-family: 'Raleway-ExtraBold';
     font-size: 17px;
-    margin-top: 15px;
-    margin-right: 2%; 
+    margin-left: 15px;
+    
+    
 }
-.FilterButtonDog
+.FilterGridItem1
 {
-    display: flex;
     background-color: #fff;
-    width: 235px;
+    width: 190px;
+    height: 50px;
     font-size: 110%;
     border-radius: 30px 30px 30px 30px;
     border-style: solid solid solid none;
     border-color: #05050518;
-    margin-right: 2%;
+    align-items: center;
+}
+.FilterGridItem2
+{
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size: 110%;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid solid solid none;
+    border-color: #05050518;
+    align-items: center;
+}
+.FilterGridItem3
+{
+    background-color: #fff;
+    width: 190px;
+    height: 50px;
+    font-size: 110%;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid solid solid none;
+    border-color: #05050518;
+    align-items: center;
+}
+.FilterGridItem4
+{
+    background-color: #fff;
+    width: 235px;
+    height: 50px;
+    font-size: 110%;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid solid solid none;
+    border-color: #05050518;
+    align-items: center;
 }
 .FilterButton:hover
 {
@@ -190,13 +239,13 @@ p
     border-color: #05050531;
     border-radius: 50px 50px 50px 50px;
     color: #0065FC;
-    margin-left: 3.5%;
-    margin-right: -0.8%;
+    margin-left: 50px;
     height: 25px;
     width: 25px;
     text-align: center;
     font-size: 81%;
     border-width: 1px;
+    
          
 }
 .fas.fa-info
@@ -206,33 +255,29 @@ p
 }
 .SearchResultText
 {
-    margin-left: -0.2%;
+    font-family: 'Raleway';
+    color: #020202;
+    padding: 6px 6px 6px 10px;
 }
-.HostingAndPopular
-{
-  
-}
+
 .HostingContainer
 {
     display: grid;
     grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
     grid-column-gap: 35px;
     grid-row-gap: 30px;
-    margin-left: 5.2%;
-    margin-top: 6.5%;
     justify-content: start;
+    padding: 25px 0px 0px 50px ;
 }
 .HostingMainTitle
 {
     font-family: 'Raleway-ExtraBold';
-    padding: 20px 50px 0px 30px;
+    padding: 20px 50px 0px 50px;
     font-weight: bold;
     font-size: 140%;
-    margin-bottom: -3.5%;
-    margin-top: 0%;
     justify-content: start;
-    margin-left: 3%;
-    padding-top: 5%;
+    padding-top: 50px;
 }
 .HostingMainPics
 {
@@ -272,14 +317,15 @@ p
 }
 .HostingBlock
 {
-  border: 2px none;
+  border: 2px ;
   border-radius: 20px;
   background-color: rgba(168, 166, 166, 0.226);
-  width: 1000px;
-  height: 720px;
-  margin-top: -4%;
-  margin-left: 2%;
+  /*width: 1000px;*/
+  
+  
 }
+
+
 .HostingMainPicsFigCaptionTitle
 {
     justify-content: start;
@@ -322,32 +368,35 @@ p
 .HostingMainViewmore
 {
     justify-content: start;
-    padding-left: 4%;
-    margin-top: 10%;
+    padding-left: 50px;
     font-family: 'Raleway-ExtraBold';
     color: black;
     text-decoration: none;
+    margin-top: 40px;
     font-size: 130%;
+    border: none;
+    outline: none;
+}
+.HostingMainViewmore:hover
+{
+   text-decoration: underline; 
 }
 .HostingPopularContainer
 {
     display: grid;
     grid-column-gap: 35px;
     grid-row-gap: 30px;
-    justify-content: left;
-    margin-left: -37%;
-    margin-top: 5%;
+    
+    
     
 }
 .HostingPopularTitle
 {
     font-family: 'Raleway-ExtraBold';
-    padding: 55px 50px 0px 60px;
+    
     font-weight: bold;
     font-size: 140%;
-    margin-top: 0%;
     justify-content: start;
-    margin-bottom: -9% ;
    
     
     
@@ -361,14 +410,14 @@ p
 .HostingPopularMainPicsFigcaptionTitle
 {
     
-    padding-left: 100%;
+    padding-left: 0%;
     padding-bottom: 0%;
     font-family: 'Raleway-ExtraBold';
     color: black;
     text-decoration: none;
     margin: 5px;
     letter-spacing: -0.2px;
-    text-align: justify;
+    /*text-align: justify;*/
     
     
 }
@@ -388,15 +437,13 @@ p
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-    margin-right: -50%;
-    margin-left: -9%;
-    width: 235%;
-    height: 96%;
+    width: 370px;
+    height: 150px;
 }
 .HostingPopularMainPicsFigureImg
 {
-    width: 160px;
-    height: 150px;
+    width: 150px;
+    height: 145px;
     padding: 1px;
     background-color: white;
     border-radius: 20px 0px 0px 20px;
@@ -407,18 +454,16 @@ p
 .HostingPopularMainPicsFigCaption
 {
    float: right;
-   margin-right: 15%;
+   margin-right: 38px;
    /*margin-top: 1%;*/
-   
    text-align:justify;
-   
    padding-top: 15px ;
    width: 155px;
 }
 .HostingPopularMainPicsStarsIconGroup
 {
-    margin-top: 30%;
-    margin-left:  1%;
+    margin-top: 35px;
+    margin-left:  2px;
 }
 .HostingPopularMainPicsStarsIcon
 {
@@ -434,40 +479,42 @@ p
     border: 2px none;
     border-radius: 20px;
     background-color: rgba(168, 166, 166, 0.226);
-    width: 500px;
-    height: 720px;
-    margin-top: 10%;
-    margin-left: 2%;
+    width: 460px;
+    
+    
+    
      
 }
 .HostingAndPopular
 {
     display: grid;
-    grid-template-columns: 20px 2px;
-    margin-top: 2%;
-    grid-column-gap: 1025px;
-    margin-left: 3%;
+    grid-template-columns: auto 460px;
+    grid-column-gap: 50px;
+    padding: 50px 50px 50px 50px;
+    height: 700px;
+   
    
 }
+.HostingBlockPopularTitleGrid
+{
+    display: grid;
+    grid-template-columns: 92% 8%;
+    padding: 55px 50px 25px 60px;
+}
+
 .fas.fa-chart-line
 {
     font-weight: bold;
-    font-size: 140%;
-    margin-top: 5%;
-    margin-left: 85%;
+    font-size: 150%;
+
 }
 .ActivitiesGrid
 {
     display: grid;
     grid-gap: 50px 50px;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 250px 200px;
-    padding: 5% 1.5% 5% 3%;
-    
-
-    
-
-    /*box-sizing: border-box;*/
+    grid-template-rows: 200px 50px 200px;
+    padding: 50px 50px 50px 50px;
     
 }
 .ActivitiesMainPicsFigure
@@ -476,7 +523,6 @@ p
     border: none;
     border-radius: 20px;
     box-shadow: 0.1px 0px  1px rgba(185, 184, 184, 0.37) inset, 1px 5px 5px rgba(185, 184, 184, 0.37);
-    height:  100%;
      
 }
 .ActivitiesMainPicsFigure:hover
@@ -503,10 +549,10 @@ p
 {
    
     width: 100%;
-    height: 63%;
+    height: 70%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    margin-top: 7%;
+    
 }
 .ActivitiesMainPicsFigureImg4
 {
@@ -535,34 +581,34 @@ p
 }
 .grid-item1
 {
-    grid-row: 1/span 2;
-    height: 100%;
+    grid-row: 1/span 3;
+    
     
 }
 .grid-item2
 {
-    grid-row: 1/span 1;
-    height: 110%;
+    grid-row: 1/span 2;
+    
 }
 .grid-item3
 {
-    grid-row: 2/span 1;
-    height: 100%;
+    grid-row: 3/span 1;
+    
 }
 .grid-item4
 {
-    grid-row: 1/span 2;
+    grid-row: 1/span 3;
 }
 .grid-item5
 {
     grid-row: 1/span 1;
-    height: 80%;
+    
 }
 .grid-item6
 {
-    grid-row: 2/span 1;
-    height: 125%;
-    margin-top: -14%;
+    grid-row: 2/span 2;
+    
+    
 }
 .ActivitiesMainPicsFigcaptionTitle
 {

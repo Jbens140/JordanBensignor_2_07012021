@@ -17,11 +17,9 @@
 
     <header>
         <img class="HeaderImage" src="./images/logo/Reservia@3x.png" alt="Reservia">
-        <nav class="HeaderNav">
-            <a class="HeaderNavTab" href="">Hébergements</a>
+            <a class="HeaderNavTabHosting" href="">Hébergements</a>
             <a class="HeaderNavTab" href="">Activités</a>
             <a class="SubmitButton" href=""><strong>S'inscrire</strong></a>
-        </nav>
     </header>
     <!--HEADER-->
 
@@ -37,30 +35,29 @@
             <!--Icon Location-->
             <input type="text" id="LocationSearchBar" placeholder="Marseille, France">
             <button class="LocationSearchButton">Rechercher</button>
-            <!--Probleme sur l'affichage quand on click-->
         </nav>
 
         <div class="FilterNav">
-            <h2 class="TitleFilter ">Filtres</h2>
-            <div class="FilterButton">
+            <div class="TitleFilter ">Filtres</div>
+            <div class="FilterButton FilterGridItem1">
                 <div class="FilterIcon">
                     <i class="fas fa-money-bill-wave FilterIcon"></i>
                 </div>
                 <span class="TitleFilter">Économique</span>
             </div>
-            <div class="FilterButton">
+            <div class="FilterButton FilterGridItem2">
                 <div class="FilterIcon">
                     <i class="fas fa-child FilterIcon"></i>
                 </div>
                 <span class="TitleFilter">Familial</span>
             </div>
-            <div class="FilterButton">
+            <div class="FilterButton FilterGridItem3">
                 <div class="FilterIcon">
                     <i class="fas fa-heart FilterIcon"></i>
                 </div>
                 <span class="TitleFilter">Romantique</span>
             </div>
-            <div class="FilterButton FilterButtonDog">
+            <div class="FilterButton FilterGridItem4">
                 <div class="FilterIcon">
                     <i class="fas fa-dog FilterIcon"></i>
                 </div>
@@ -69,7 +66,7 @@
         </div>
         <div class="SearchResult">
             <div class="SearchResultInfosIcon"><i class="fas fa-info"></i></div>
-            <p class="SearchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="SearchResultText">Plus de 500 logements sont disponibles dans cette ville</div>
         </div>
         <!--SEARCH NAVIGATION-->
 
@@ -211,13 +208,14 @@
                             </figure>
                         </a>
                     </div>
-                    <a class="HostingMainViewmore" href="#">Afficher plus</a>
                 </div>
-
+                <button class="HostingMainViewmore" onclick="">Afficher plus</button>
             </div>
             <div class="HostingBlockPopular">
+                <div class="HostingBlockPopularTitleGrid">
                 <h2 class="HostingPopularTitle">Les plus populaires</h2>
                 <i class="fas fa-chart-line"></i>
+            </div>
                 <div class="HostingPopularContainer">
                     <div class="HostingPopularMainPics">
                         <a class="HostingPopularMainPicsFigcaptionTitle" href="#">
