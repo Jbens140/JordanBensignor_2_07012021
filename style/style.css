@@ -279,6 +279,7 @@ p
     justify-content: start;
     padding-top: 50px;
 }
+
 .HostingMainPics
 {
     display: flex;
@@ -615,6 +616,34 @@ p
     font-family: 'Raleway-Extrabold';
     color: black;
     margin-left: 5%;
-    margin-top: 2.5%;
-    
+    margin-top: 2.5%; 
+}
+
+/*FOOTER*/
+
+.GridFooter
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40px 30px 30px 30px;
+    background-color:rgba(168, 166, 166, 0.226);
+    padding: 50px 50px 50px 50px;
+    margin-top: 15px;
+    height: 120px;
+}
+.FooterTitle
+{
+    font-family: 'Raleway-Extrabold';
+    color: black;
+    font-size: 120%;
+}
+.FooterLink
+{
+    font-family: 'Raleway';
+    color: black;
+    text-decoration: none;
+}
+.FooterLink:hover
+{
+    text-decoration: underline;
 }

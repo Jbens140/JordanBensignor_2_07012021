@@ -8,7 +8,13 @@
     <title>Reservia - Openclassroom</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/position.css">
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        </style>
 </head>
+
 
 <body>
 
@@ -17,8 +23,8 @@
 
     <header>
         <img class="HeaderImage" src="./images/logo/Reservia@3x.png" alt="Reservia">
-            <a class="HeaderNavTabHosting" href="">Hébergements</a>
-            <a class="HeaderNavTab" href="">Activités</a>
+            <a class="HeaderNavTabHosting" href="#Hosting">Hébergements</a>
+            <a class="HeaderNavTab" href="#Activities">Activités</a>
             <a class="SubmitButton" href=""><strong>S'inscrire</strong></a>
     </header>
     <!--HEADER-->
@@ -71,7 +77,7 @@
         <!--SEARCH NAVIGATION-->
 
         <!-- HOSTING -->
-        <section class="HostingAndPopular">
+        <section class="HostingAndPopular" id="Hosting">
             <div class="HostingBlock">
                 <h2 class="HostingMainTitle">Hébergement à Marseille</h2>
                 <div class="HostingContainer">
@@ -294,7 +300,7 @@
 
         </section>
         <section>
-            <h2 class="HostingMainTitle" style="margin-left: 2%;">Activités à Marseille</h2>
+            <h2 class="HostingMainTitle" style="margin-left: 2%;" id="Activities">Activités à Marseille</h2>
             <div class="ActivitiesGrid">
             <figure class="ActivitiesMainPicsFigure grid-item1">
                 <img class="ActivitiesMainPicsFigureImg1"
@@ -347,6 +353,19 @@
             </figure>
         </div>
         </section>
+        <!--FOOTER-->
+        <footer class="GridFooter">
+                <div class="FooterTitle">A propos</div>
+                <div class="FooterTitle">Nos hébergements</div>
+                <div class="FooterTitle">Assistance</div>
+                <a class="FooterLink" href="#">Fonctionnement du site</a>
+                <a class="FooterLink" href="#">Charte qualité</a>
+                <a class="FooterLink" href="#">Centre d'aide</a>
+                <a class="FooterLink" href="#">Conditions générales de vente</a>
+                <a class="FooterLink" href="#">Soumettre votre hôtel</a>
+                <a class="FooterLink" href="#">Nous contacter</a>
+                <a class="FooterLink" href="#">Données et confidentialité</a>
+        </footer>
 
 
 
@@ -355,9 +374,9 @@
 
 
 
-
-
-    </main>
+        <!--FOOTER-->
+    
+        </main>
 
 
 
