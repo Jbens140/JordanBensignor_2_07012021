@@ -459,7 +459,6 @@ p
 {
    float: right;
    margin-right: 38px;
-   /*margin-top: 1%;*/
    text-align:justify;
    padding-top: 15px ;
    width: 155px;
@@ -626,27 +625,46 @@ p
 
 .GridFooter
 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 40px 30px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color:rgba(168, 166, 166, 0.226);
-    padding: 50px 50px 50px 50px;
-    margin-top: 15px;
-    height: 120px;
+    gap: 220px;
 }
 .FooterTitle
 {
     font-family: 'Raleway-Extrabold';
     color: black;
     font-size: 120%;
+    margin-bottom: 10px;
 }
-.FooterLink
+a
 {
     font-family: 'Raleway';
-    color: black;
+    color: #020202;
     text-decoration: none;
+    
+    
 }
-.FooterLink:hover
+a:hover
 {
     text-decoration: underline;
+}
+li
+{
+    list-style: none;
+    line-height: 30px;
+
+}
+#FooterNav1
+{
+    padding: 40px;
+}
+#FooterNav2
+{
+    padding: 40px;
+}
+#FooterNav3
+{
+    padding: 40px;
 }
