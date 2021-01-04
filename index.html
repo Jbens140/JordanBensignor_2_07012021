@@ -8,6 +8,7 @@
     <title>Reservia - Openclassroom</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/position.css">
+    <link rel="stylesheet" href="./style/media_queries_375px.css">
     <style>
         html {
           scroll-behavior: smooth;
@@ -24,7 +25,7 @@
     <header>
         <img class="HeaderImage" src="./images/logo/Reservia@3x.png" alt="Reservia">
             <a class="HeaderNavTabHosting" href="#Hosting">Hébergements</a>
-            <a class="HeaderNavTab" href="#Activities">Activités</a>
+            <a class="HeaderNavTabActivities" href="#Activities">Activités</a>
             <a class="SubmitButton" href=""><strong>S'inscrire</strong></a>
     </header>
     <!--HEADER-->
@@ -33,7 +34,7 @@
 
     <main class="main">
         <!--SEARCH NAVIGATION-->
-        <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
 
         <nav class="LocationSearchNav">
@@ -41,10 +42,11 @@
             <!--Icon Location-->
             <input type="text" id="LocationSearchBar" placeholder="Marseille, France">
             <button class="LocationSearchButton">Rechercher</button>
+            <button class="fas fa-search"></button>
         </nav>
 
         <div class="FilterNav">
-            <div class="TitleFilter ">Filtres</div>
+            <div class="TitleFilter Filter">Filtres</div>
             <div class="FilterButton FilterGridItem1">
                 <div class="FilterIcon">
                     <i class="fas fa-money-bill-wave FilterIcon"></i>
@@ -231,9 +233,9 @@
                                     alt="Chambre idéale pour passer un séjour en famille">
 
                                 <figcaption class="HostingPopularMainPicsFigCaption">
-                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Hôtel le soleil du
-                                            matin</h3>
-                                    <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
+                                    <div class="HostingPopularMainPicsFigCaptionTitle">Hôtel le soleil du
+                                            matin</div>
+                                    <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de 
                                         <strong>128€</strong>
                                     </div>
                                     <div class="HostingPopularMainPicsStarsIconGroup">
@@ -256,7 +258,7 @@
                                     alt="Chambre idéale pour passer un séjour en famille">
 
                                 <figcaption class="HostingPopularMainPicsFigCaption">
-                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Au coeur de l'eau<br> Chambre d'hôtes</h3>
+                                    <div class="HostingPopularMainPicsFigCaptionTitle">Au coeur de l'eau<br> Chambre d'hôtes</div>
                                     <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
                                         <strong>71€</strong>
                                     </div>
@@ -279,8 +281,7 @@
                                     alt="Chambre idéale pour passer un séjour en famille">
 
                                 <figcaption class="HostingPopularMainPicsFigCaption">
-                                    <h3 class="HostingPopularMainPicsFigCaptionTitle">Hôtel Tout bleu et
-                                            Blanc</h3>
+                                    <div class="HostingPopularMainPicsFigCaptionTitle">Hôtel Tout bleu et Blanc</div>
                                     <div class="HostingPopularMainPicsFigCaptionSubTitlePrice">Nuit à partir de
                                         <strong>68€</strong>
                                     </div>
