@@ -61,10 +61,11 @@ header
 {
     font-family: 'Raleway-ExtraBold';
     color: #0065FC;
-    text-decoration-line: none;
+    text-decoration-line: none !important;
     text-align: center;
     padding-top: 50px;
 }
+
 .HeaderNavTabActivities:hover
 {
     color: #0065FC;
