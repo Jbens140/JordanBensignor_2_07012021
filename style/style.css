@@ -13,6 +13,9 @@
     src: url('./font_Raleway/Raleway-ExtraBold.ttf');
 }
 
+/*HEADER AND SEARCH*/
+
+
 header
 {
     display: grid;
@@ -35,13 +38,14 @@ header
     
     font-family: 'Raleway';
     color: #000000fd;
-    text-decoration-line: none;
+    text-decoration-line: none !important;
     text-align: center;
     padding-top: 50px;
 
     
     
 }
+
 .HeaderNavTabHosting
 {
     font-family: 'Raleway';
@@ -262,6 +266,8 @@ p
     padding: 6px 6px 6px 10px;
 }
 
+/*HEADER AND SEARCH*/
+
 .HostingContainer
 {
     display: flex;
@@ -323,7 +329,7 @@ p
   border: 2px ;
   border-radius: 20px;
   background-color: rgba(168, 166, 166, 0.226);
-  /*width: 1000px;*/
+  
   
   
 }
@@ -511,6 +517,13 @@ p
     font-size: 150%;
 
 }
+
+/*HOSTING AND POPULAR*/
+
+
+
+/*ACTIVITIES*/
+
 .ActivitiesGrid
 {
     display: grid;
@@ -620,6 +633,7 @@ p
     margin-left: 5%;
     margin-top: 2.5%; 
 }
+/*ACTIVITIES*/
 
 /*FOOTER*/
 
