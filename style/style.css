@@ -12,6 +12,9 @@
     font-family: 'Raleway-ExtraBold';
     src: url('./font_Raleway/Raleway-ExtraBold.ttf');
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 /*HEADER AND SEARCH*/
 
@@ -303,7 +306,7 @@ p
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    width: 265px;
+    width: 96.8%;
     padding: 4px;
     background-color: white;
     border-radius: 20px;
@@ -447,7 +450,7 @@ p
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-    width: 370px;
+    width: 102%;
     height: 150px;
 }
 .HostingPopularMainPicsFigureImg
@@ -644,7 +647,7 @@ p
     flex-wrap: wrap;
     flex-direction: row;
     background-color:rgba(168, 166, 166, 0.226);
-    gap: 220px;
+    gap: 10%;
 }
 .FooterTitle
 {
