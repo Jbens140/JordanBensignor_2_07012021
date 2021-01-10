@@ -472,10 +472,10 @@
     }
 
     .ActivitiesGrid {
-        grid-template-columns: 94%;
+        grid-template-columns: 100%;
         display: grid;
         /* flex-wrap: wrap; */
-        width: 100%;
+        width: 94%;
         grid-template-rows: 175px 175px 175px 175px 175px 175px;
         /* flex-direction: column; */
         /* flex-flow: column wrap; */
