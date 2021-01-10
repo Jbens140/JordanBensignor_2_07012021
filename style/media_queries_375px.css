@@ -1,608 +1,609 @@
-@media screen and (max-width: 375px)
-{
-    header
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 0px 0px 20px 0px;
-    grid-template-rows: 75px 50px;
-}  
-    .HeaderImage
-  {
-    
-    width: 55%;
-    order: 1;
-    padding: 20px 0px 0px 20px;
 
-  }
-   
-.HeaderNavTabActivities
-{
-    
-    font-family: 'Raleway';
-    color: #000000fd;
-    text-decoration-line: none !important;
-    text-align: center;
-    order: 4;
-    padding-top: 20px;
-    border-bottom:2px solid #d1d1d152;
-    
-}
-.HeaderNavTabHosting
-{
-    border: none;
-    font-family: 'Raleway';
-    text-decoration-line: none !important;
-    text-align: center;
-    color: #0065FC;
-    border-bottom:2px solid #0065FC;
-    font-weight: bold;
-    order: 3;
-    padding-top: 20px;
-    
-}
-.HeaderNavTabActivities:hover
-{
-    border: none;
-    color: #0065FC;
-    border-bottom:2px solid #0065FC;
-    font-weight: bold;
-}
-.SubmitButton
-{
-    font-family: 'Raleway-ExtraBold';
-    color: #0065FC;
-    text-decoration-line: none;
-    text-align: end;
-    order: 2;
-    padding: 40px 20px 0px 0px;
+@media screen and (max-width: 350px) {
+    header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 0px 0px 20px 0px;
+        grid-template-rows: 75px 50px;
+    }
 
-}
-h1
-{
-    font-family: 'Raleway-Extrabold';
-    padding: 10px 0px 0px 20px;
-    font-weight: bold;
-    font-size: 145%;
-}
-p
-{
-    padding: 10px 0px 0px 20px;
-    font-family: 'Raleway';
-    color: #020202;
-}
+    .HeaderImage {
 
-.LocationSearchNav
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px 0px 0px 20px;
+        width: 55%;
+        order: 1;
+        padding: 20px 0px 0px 20px;
 
-}
-.LocationSearchButton
-{
-    display: none;
-    
-}
-.fas.fa-search
-{
-    display: block;
-    background: #0065FC;
-    color: #fff;
-    border-radius: 15px;
-    border: none;
-    height: 50px;
-    width: 50px;
-    font-size: 110%;
-    outline: none;
-}
-#LocationSearchBar
-{
-    border-color: rgba(207, 204, 204, 0.253);
-    height: 46px;
-    width: 230px;
-    text-align:start;
-    font-family: 'Raleway';
-    font-size: 110%;
-    font-weight: bold;
-    text-indent: 15px;
-    border-style: solid none solid none;
-    outline: none;   
-}
-.FilterNav
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10px 20px ;
-    padding: 25px 20px 20px 20px;
-    align-items: center;
-   
-}
-.FilterIcon
- {
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    background-color:  #c6dbfab2;
-    justify-content: center;
-    align-items: center;
-    font-size: 110%;
-    border-radius: 30px;
-    color: #0065FC;
-    border-style: none;     
- }
-.TitleFilter
-{
-    font-family: 'Raleway-ExtraBold';
-    font-size: 17px;
-    margin-left: 7px;
-    grid-column: 1 / span 2;
-}
-.Filter
-{
-    padding-top: 15px;
-}
-.FilterGridItem1
-{
-    background-color: #fff;
-    width: 170px;
-    height: 45px;
-    font-size: 100%;
-    border-radius: 30px;
-    border-style: solid solid solid none;
-    border-color: #05050518;
-    align-items: center;
+    }
 
-    
-}
-.FilterGridItem2
-{
-    background-color: #fff;
-    width: 130px;
-    height: 45px;
-    font-size: 110%;
-    border-radius: 30px 30px 30px 30px;
-    border-style: solid solid solid none;
-    border-color: #05050518;
-    align-items: center;
-    
-}
-.FilterGridItem3
-{
-    background-color: #fff;
-    width: 170px;
-    height: 45px;
-    font-size: 110%;
-    border-radius: 30px 30px 30px 30px;
-    border-style: solid solid solid none;
-    border-color: #05050518;
-    align-items: center;
-    
-}
-.FilterGridItem4
-{
-    background-color: #fff;
-    width: 220px;
-    height: 45px;
-    font-size: 110%;
-    border-radius: 30px 30px 30px 30px;
-    border-style: solid solid solid none;
-    border-color: #05050518;
-    align-items: center;
-    grid-column: 1 / span 2;
-    
-}
-.FilterButton:hover
-{
-    box-shadow: 10px 10px 10px #02020218;
-}
-.SearchResult
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
-.SearchResultInfosIcon
-{
-    border-style: solid;
-    border-color: #05050531;
-    border-radius: 30px;
-    color: #0065FC;
-    height: 25px;
-    width: 35px;
-    text-align: center;
-    font-size: 81%;
-    border-width: 1px;
-    margin-left: 20px;
-    
-         
-}
+    .HeaderNavTabActivities {
 
-.HostingContainer
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    gap: 10px;
-    flex-direction: row;
-    padding: 20px;
-    order: 2;
-}
-.HostingMainTitle
-{
-    font-family: 'Raleway-ExtraBold';
-    padding: 20px 20px 0px 20px;
-    font-weight: bold;
-    font-size: 140%;
-    justify-content: start;
-    padding-top: 50px;
-}
+        font-family: 'Raleway';
+        color: #000000fd;
+        text-decoration-line: none !important;
+        text-align: center;
+        order: 4;
+        padding-top: 20px;
+        border-bottom: 2px solid #d1d1d152;
 
-.HostingMainPics
-{
-    display: flex;
-    flex-wrap: wrap;
-    
-    
-}
-.HostingMainPicsFigure
-{
-    display: block;
-    width: 335px;
-    padding: 0px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-    height:  200px;
-}
-.HostingMainPicsFigure:hover
-{
-    box-shadow: 10px 10px 10px #02020286;
-}
-.HostingMainPicsFigureImg
-{
-    width: 330px;
-    height: 110px;
-    padding: 2px;
-    background-color: white;
-    border-radius: 20px 20px 0px 0px;
-    margin: 0px;
-    object-fit: cover;
-}
-.HostingBlock
-{
-  border: 2px ;
-  border-radius: none;
-  background-color: transparent;
-  order: 2;
-  
-  
-}
+    }
+
+    .HeaderNavTabHosting {
+        border: none;
+        font-family: 'Raleway';
+        text-decoration-line: none !important;
+        text-align: center;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+        order: 3;
+        padding-top: 20px;
+
+    }
+
+    .HeaderNavTabActivities:hover {
+        border: none;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+    }
+
+    .SubmitButton {
+        font-family: 'Raleway-ExtraBold';
+        color: #0065FC;
+        text-decoration-line: none;
+        text-align: end;
+        order: 2;
+        padding: 35px 20px 0px 0px;
+
+    }
+
+    h1 {
+        font-family: 'Raleway-Extrabold';
+        padding: 10px 3% 0px 3%;
+        font-weight: bold;
+        font-size: 145%;
+    }
+
+    p {
+        padding: 10px 3% 0px 3%;
+        font-family: 'Raleway';
+        color: #020202;
+    }
+
+    .LocationSearchNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 3% 0px 3%;
+
+    }
+
+    .LocationSearchButton {
+        display: none;
 
 
-.HostingMainPicsFigCaptionTitle
-{
-    justify-content: start;
-    padding: 0px 4% 2% 4%;
-    font-family: 'Raleway-ExtraBold';
-    color: black;
-    text-decoration: none;
+    }
 
-    
-}
-.HostingMainPicsFigCaptionSubTitle
-{
-    justify-content: start;
-    font-family: 'Raleway';
-    color: black;
-    text-decoration: none;
+    .fas.fa-search {
+        display: block;
+        background: #0065FC;
+        color: #fff;
+        border-radius: 15px;
+        border: none;
+        height: 50px;
+        width: 50px;
+        font-size: 110%;
+        outline: none;
 
-    
-}
+    }
 
-.HostingMainPicsStarsIconGroup
-{
-    padding-left: 3.5%;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
-}
-.HostingMainPicsStarsIcon
-{
-    margin-right: -1.7%;
-    color: #0065FC !important;
-}
-.fas.fa-star
-{
-    color: rgba(182, 182, 182, 0.993);
-    margin-right: -1.7%;
-}
-.HostingMainViewmore
-{
-    justify-content: start;
-    padding-left: 20px;
-    font-family: 'Raleway-ExtraBold';
-    color: black;
-    text-decoration: none;
-    margin-top: 15px;
-    font-size: 130%;
-    border: none;
-    outline: none;
-    margin-bottom: 50px;
-    background-color: transparent;
-}
-.HostingMainViewmore:hover
-{
-   text-decoration: underline; 
-}
-.HostingPopularContainer
-{
-    display: grid;
-    grid-column-gap: 35px;
-    grid-row-gap: 2px;
-    
-}
-.HostingPopularTitle
-{
-    font-family: 'Raleway-ExtraBold';
-    font-weight: bold;
-    font-size: 140%;
-    justify-content: start;
-   
-    
-    
-}
-.HostingPopularMainPics
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 335px;
-    padding: 0px 20px 0px 20px;
-}
-.HostingPopularMainPicsFigcaptionTitle
-{
-    
-    font-family: 'Raleway-ExtraBold';
-    color: black;
-    text-decoration: none;
-    letter-spacing: -0.3px;
-   
-    
-    
-}
-.HostingPopularMainPicsFigCaptionSubTitlePrice
-{
-    margin-top: 6%;
-    padding-bottom: 0%;
-    font-family: 'Raleway';
-    color: black;
-    text-decoration: none;
-    
-}
-.HostingPopularMainPicsFigure
-{
-    
-    padding: 2px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-    width: 335px;
-    height: 150px;
-}
-.HostingPopularMainPicsFigureImg
-{
-    width: 130px;
-    height: 145px;
-    padding: 1px;
-    background-color: white;
-    border-radius: 20px 0px 0px 20px;
-    margin: 2px;
-    margin-right: -20%;
-    object-fit: cover;
+    #LocationSearchBar {
+        border-color: rgba(207, 204, 204, 0.253);
+        height: 46px;
+        width: 80%;
+        text-align: start;
+        font-family: 'Raleway';
+        font-size: 110%;
+        font-weight: bold;
+        text-indent: 15px;
+        border-style: solid none solid none;
+        outline: none;
+    }
 
-}
-.HostingPopularMainPicsFigCaption
-{
-   float: right;
-   margin-right: 38px;
-   text-align:justify;
-   padding-top: 15px ;
-   width: 155px;
-}
-.HostingPopularMainPicsStarsIconGroup
-{
-    margin-top: 35px;
-    margin-left:  2px;
-}
-.HostingPopularMainPicsStarsIcon
-{
-    margin-right: -1.7%;
-    color: #0065FC !important; 
-}
-.HostingPopularMainPicsFigure:hover
-{
-    box-shadow: 10px 10px 10px #02020286;
-}
-.HostingBlockPopular
-{
-    border: none none;
-    border-radius: unset;
-    background-color: rgba(168, 166, 166, 0.226);
-    width: 375px;
-    height: 620px;
-    order: 1;
-    
-    
-    
-     
-}
-.HostingAndPopular
-{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    grid-column-gap: 0px;
-    padding: 35px 0px 0px 0px;
-    height: 100%;
-   
-   
-}
-.HostingBlockPopularTitleGrid
-{
-    display: grid;
-    grid-template-columns: 92% 8%;
-    padding: 40px 20px 25px 20px;
-}
+    .FilterNav {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px 15px;
+        padding: 25px 3% 20px 3%;
+        align-items: center;
 
-.fas.fa-chart-line
-{
-    font-weight: bold;
-    font-size: 150%;
+    }
 
-}
-.ActivitiesGrid
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    gap: 25px;
-    flex-direction: column;
-    flex-flow: column wrap;
-    padding: 20px 20px 35px 20px ;
-    
-}
-.ActivitiesMainPicsFigure
-{
-    
+    .FilterIcon {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: #c6dbfab2;
+        justify-content: center;
+        align-items: center;
+        font-size: 110%;
+        border-radius: 30px;
+        color: #0065FC;
+        border-style: none;
+    }
 
-    border-radius: 20px;
-    width: 335px;
-    height: 170px;
-    background-color: white;
-    object-fit: cover;
-     
-}
-.ActivitiesMainPicsFigure:hover
-{
-    box-shadow: 10px 10px 10px #02020286;
-}
-.ActivitiesMainPicsFigureImg1
-{
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
+    .TitleFilter {
+        font-family: 'Raleway-ExtraBold';
+        font-size: 90%;
+        margin:  0% 2% 0% 2%;
+        grid-column: 1 / span 2;
+    }
 
- 
-}
-.ActivitiesMainPicsFigureImg2
-{
-    
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-.ActivitiesMainPicsFigureImg3
-{
-   
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    
-}
-.ActivitiesMainPicsFigureImg4
-{
-    
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-.ActivitiesMainPicsFigureImg5
-{
-    
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-.ActivitiesMainPicsFigureImg6
-{
-    
-    width: 100%;
-    height: 110px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    
-}
-.grid-item1
-{
-    grid-row: 1/span 3;
-    
-    
-    
-}
-.grid-item2
-{
-    grid-row: 1/span 2;
-    
-}
-.grid-item3
-{
-    grid-row: 3/span 1;
-    
-}
-.grid-item4
-{
-    grid-row: 1/span 3;
-}
-.grid-item5
-{
-    grid-row: 1/span 1;
-    
-}
-.grid-item6
-{
-    grid-row: 2/span 2;
-    
-    
-}
-.ActivitiesMainPicsFigcaptionTitle
-{
-    font-family: 'Raleway-Extrabold';
-    color: black;
-    margin-left: 5%;
-    margin-top: 5%; 
-}
+    .Filter {
+        padding-top: 15px;
+    }
 
-/*FOOTER*/
+    .FilterGridItem1 {
+        background-color: #fff;
+        width: 155px;
+        height: 45px;
+        border-radius: 30px;
+        border-style: solid solid solid none;
+        border-color: #05050518;
+        align-items: center;
 
-.GridFooter
-{
-    display: block;
-    width: 100%;
-    
-}
-#FooterNav1
-{
-    padding-bottom: 0px;
-    padding-left: 30px;
-}
-#FooterNav2
-{
-    padding-bottom: 0px;
-    padding-left: 30px;
-}
-#FooterNav3
-{
-    padding-left: 30px;
-}
+
+    }
+
+    .FilterGridItem2 {
+        background-color: #fff;
+        width: 125px;
+        height: 45px;
+        border-radius: 30px 30px 30px 30px;
+        border-style: solid solid solid none;
+        border-color: #05050518;
+        align-items: center;
+
+    }
+
+    .FilterGridItem3 {
+        background-color: #fff;
+        width: 160px;
+        height: 45px;
+        border-radius: 30px 30px 30px 30px;
+        border-style: solid solid solid none;
+        border-color: #05050518;
+        align-items: center;
+
+    }
+
+    .FilterGridItem4 {
+        background-color: #fff;
+        width: 210px;
+        height: 45px;
+        border-radius: 30px 30px 30px 30px;
+        border-style: solid solid solid none;
+        border-color: #05050518;
+        align-items: center;
+        grid-column: 1 / span 1;
+
+    }
+
+    .FilterButton:hover {
+        box-shadow: 10px 10px 10px #02020218;
+    }
+
+    .SearchResult {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .SearchResultInfosIcon {
+        border-style: solid;
+        border-color: #05050531;
+        border-radius: 30px;
+        color: #0065FC;
+        height: 25px;
+        width: 35px;
+        text-align: center;
+        font-size: 81%;
+        border-width: 1px;
+        margin-left: 20px;
+
+
+    }
+
+    .HostingContainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        gap: 12px;
+        flex-direction: row;
+        padding: 7% 3% 0% 3% ;
+        order: 2;
+    }
+
+    .HostingMainTitle {
+        font-family: 'Raleway-ExtraBold';
+        padding: 20px 20px 0px 20px;
+        font-weight: bold;
+        font-size: 140%;
+        justify-content: start;
+        padding-top: 50px;
+    }
+
+    .HostingMainPics {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .HostingMainPicsFigure {
+        display: block;
+        width: 100%;
+        padding: 0px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
+        height: 200px;
+    }
+
+    .HostingMainPicsFigure:hover {
+        box-shadow: 10px 10px 10px #02020286;
+    }
+
+    .HostingMainPicsFigureImg {
+        width: 100%;
+        height: 110px;
+        background-color: white;
+        border-radius: 20px 20px 0px 0px;
+        margin: 0px;
+        object-fit: cover;
+    }
+
+    .HostingBlock {
+        border: 2px;
+        border-radius: none;
+        background-color: transparent;
+        order: 2;
+
+
+    }
+
+
+    .HostingMainPicsFigCaptionTitle {
+        justify-content: start;
+        padding: 0px 4% 2% 4%;
+        font-family: 'Raleway-ExtraBold';
+        color: black;
+        text-decoration: none;
+
+
+    }
+
+    .HostingMainPicsFigCaptionSubTitle {
+        justify-content: start;
+        font-family: 'Raleway';
+        color: black;
+        text-decoration: none;
+
+
+    }
+
+    .HostingMainPicsStarsIconGroup {
+        padding-left: 3.5%;
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+    }
+
+    .HostingMainPicsStarsIcon {
+        margin-right: -1.7%;
+        color: #0065FC !important;
+    }
+
+    .fas.fa-star {
+        color: rgba(182, 182, 182, 0.993);
+        margin-right: -1.7%;
+    }
+
+    .HostingMainViewmore {
+        justify-content: start;
+        padding-left: 20px;
+        font-family: 'Raleway-ExtraBold';
+        color: black;
+        text-decoration: none;
+        margin-top: 15px;
+        font-size: 130%;
+        border: none;
+        outline: none;
+        margin-bottom: 50px;
+        background-color: transparent;
+    }
+
+    .HostingMainViewmore:hover {
+        text-decoration: underline;
+    }
+
+    .HostingPopularContainer {
+        display: grid;
+        grid-column-gap: 0px;
+        grid-row-gap: 5%;
+        grid-template-rows: auto auto auto;
+    }
+
+    .HostingPopularTitle {
+        font-family: 'Raleway-ExtraBold';
+        font-weight: bold;
+        font-size: 140%;
+        justify-content: start;
+
+
+
+    }
+
+    .HostingPopularMainPics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 86%;
+        padding: 0px 7% 0px 7%;
+    }
+
+    .HostingPopularMainPicsFigcaptionTitle {
+
+        font-family: 'Raleway-ExtraBold';
+        color: black;
+        text-decoration: none;
+        letter-spacing: -0.3px;
+
+
+
+    }
+
+    .HostingPopularMainPicsFigCaptionSubTitlePrice {
+        margin-top: 6%;
+        padding-bottom: 0%;
+        font-family: 'Raleway';
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .HostingPopularMainPicsFigcaptionTitle {
+        width: 100%;
+        font-family: 'Raleway-ExtraBold';
+        color: black;
+        text-decoration: none;
+        margin: 0px;
+        letter-spacing: -0.2px;
+        font-size: 100%;
+
+
+    }
+
+    .HostingPopularMainPicsFigure {
+
+        padding: 1% 1% 0% 1%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
+        width: 98%;
+        height: auto;
+        margin: 0%
+    }
+
+    .HostingPopularMainPicsFigureImg {
+        width: 40%;
+        padding: 1px;
+        background-color: white;
+        border-radius: 20px 0px 0px 20px;
+        margin: 2px;
+        margin-right: -20%;
+        object-fit: cover;
+
+    }
+
+    .HostingPopularMainPicsFigCaption {
+        margin-right: 0%;
+        text-align: justify;
+        padding : 5%;
+        width: 50%;
+    }
+
+    .HostingPopularMainPicsStarsIconGroup {
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+
+    .HostingPopularMainPicsStarsIcon {
+        margin-right: -1.7%;
+        color: #0065FC !important;
+    }
+
+    .HostingPopularMainPicsFigure:hover {
+        box-shadow: 10px 10px 10px #02020286;
+    }
+
+    .HostingBlockPopular {
+        border: none none;
+        border-radius: unset;
+        background-color: rgba(168, 166, 166, 0.226);
+        width: 100%;
+        height: 650px;
+        order: 1;
+        padding: 0px 0px 0px 0px;
+
+
+
+
+    }
+
+    .HostingAndPopular {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        grid-column-gap: 0px;
+        margin: 35px 0px 0px 0px;
+
+        padding: 0px 0px 0px 0px;
+
+
+    }
+
+    .HostingBlockPopularTitleGrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 40px 7% 25px 7%;
+    }
+
+    .fas.fa-chart-line {
+        font-weight: bold;
+        font-size: 150%;
+        text-align: end;
+    }
+
+    .ActivitiesGrid {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        gap: 25px;
+        flex-direction: column;
+        flex-flow: column wrap;
+        padding: 20px 20px 35px 20px;
+
+    }
+
+    .ActivitiesMainPicsFigure {
+
+
+        border-radius: 20px;
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        object-fit: cover;
+
+    }
+
+    .ActivitiesMainPicsFigure:hover {
+        box-shadow: 10px 10px 10px #02020286;
+    }
+
+    .ActivitiesMainPicsFigureImg1 {
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+
+
+    }
+
+    .ActivitiesMainPicsFigureImg2 {
+
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .ActivitiesMainPicsFigureImg3 {
+
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+
+    }
+
+    .ActivitiesMainPicsFigureImg4 {
+
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .ActivitiesMainPicsFigureImg5 {
+
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+    }
+
+    .ActivitiesMainPicsFigureImg6 {
+
+        width: 100%;
+        height: 110px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+
+    }
+
+    .grid-item1 {
+        grid-row: 1/span 3;
+
+
+
+    }
+
+    .grid-item2 {
+        grid-row: 1/span 2;
+
+    }
+
+    .grid-item3 {
+        grid-row: 3/span 1;
+
+    }
+
+    .grid-item4 {
+        grid-row: 1/span 3;
+    }
+
+    .grid-item5 {
+        grid-row: 1/span 1;
+
+    }
+
+    .grid-item6 {
+        grid-row: 2/span 2;
+
+
+    }
+
+    .ActivitiesMainPicsFigcaptionTitle {
+        font-family: 'Raleway-Extrabold';
+        color: black;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    /*FOOTER*/
+
+    .GridFooter {
+        display: block;
+        width: 100%;
+
+    }
+
+    #FooterNav1 {
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    #FooterNav2 {
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    #FooterNav3 {
+        padding-left: 30px;
+    }
 
 
 
