@@ -22,7 +22,7 @@ html {
 header
 {
     display: grid;
-    grid-template-columns: auto 150px 150px 100px;
+    grid-template-columns: 50% auto auto auto;
     padding: 0px 50px 35px 50px;
     grid-template-rows: 100px;
     
@@ -38,7 +38,7 @@ header
 }
 .HeaderNavTabActivities
 {
-    
+    border-top: 2px solid transparent;
     font-family: 'Raleway';
     color: #000000fd;
     text-decoration-line: none !important;
@@ -51,6 +51,8 @@ header
 
 .HeaderNavTabHosting
 {
+
+    width: 100%;
     font-family: 'Raleway';
     color: #000000fd;
     text-decoration-line: none !important;
@@ -62,6 +64,8 @@ header
 }
 .SubmitButton
 {
+    font-size: 100%;
+border-top: 2px solid transparent;
     font-family: 'Raleway-ExtraBold';
     color: #0065FC;
     text-decoration-line: none !important;
@@ -450,7 +454,7 @@ p
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
-    width: 102%;
+    width: 100%;
     height: 150px;
 }
 .HostingPopularMainPicsFigureImg
@@ -643,11 +647,12 @@ p
 
 .GridFooter
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    grid-template-columns: auto auto auto;
     background-color:rgba(168, 166, 166, 0.226);
-    gap: 10%;
+    /* gap: 10%; */
 }
 .FooterTitle
 {
@@ -676,13 +681,15 @@ li
 }
 #FooterNav1
 {
-    padding: 40px;
+    padding: 40px 0px 40px 40px;
 }
 #FooterNav2
 {
-    padding: 40px;
+    padding: 40px 0px 40px 40px;
+
 }
 #FooterNav3
 {
-    padding: 40px;
+    padding: 40px 0px 40px 40px;
+
 }
