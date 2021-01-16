@@ -310,7 +310,7 @@ p
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    width: 96.8%;
+    width: 260px;
     padding: 4px;
     background-color: white;
     border-radius: 20px;
@@ -324,9 +324,10 @@ p
 }
 .HostingMainPicsFigureImg
 {
-    width: 260px;
+    width: 99%;
     height: 125px;
     padding: 2px;
+    padding-right: 0px;
     background-color: white;
     border-radius: 20px 20px 0px 0px;
     margin: 0px;
@@ -506,9 +507,9 @@ p
 {
     display: grid;
     grid-template-columns: auto 460px;
+grid-template-rows: 101%;
     grid-column-gap: 50px;
     padding: 50px 50px 50px 50px;
-    height: 100%;
    
    
 }
@@ -638,8 +639,8 @@ p
 {
     font-family: 'Raleway-Extrabold';
     color: black;
-    margin-left: 5%;
-    margin-top: 2.5%; 
+    padding: 2% 0px 10% 5%;
+    margin: 0px; 
 }
 /*ACTIVITIES*/
 
